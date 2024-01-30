@@ -1,0 +1,89 @@
+.project {
+    border-radius: 6px;
+     color: rgb(255, 247, 229);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    
+}
+.first{
+ color: #eca141;
+ font-weight: bold;
+}
+
+
+
+.green , .purple , .red , .orange{
+  padding: 8px;
+  width: fit-content;
+  background-color:rgb(91, 182, 31);
+  font-weight: bold; 
+  margin: 3px;
+  display: inline-block;
+}
+.second{
+ color:rgb(98, 220, 16);
+
+}
+.orange{
+ 
+  background-color: #de922d;
+
+
+}
+
+.red {background-color:rgba(235, 79, 79, 0.672);}
+.projects{
+  
+  z-index: 666;
+  position: relative;
+  min-height: fit-content;
+  padding-bottom: 200px;
+  background-color:#7689d8;
+  padding-top: 100px;
+
+}
+.projects:after{
+   content:"";
+   position: absolute;
+   top:1%;
+   left: 0;
+   z-index: -1;
+   height: 430px;
+   background-color:#7689d8;
+   width: 100%;
+   transform:skewy(8deg) ;
+   -webkit-transform:skewy(8deg) ;
+   -moz-transform:skewy(8deg) ;
+   -ms-transform:skewy(8deg) ;
+   -o-transform:skewy(8deg) ;
+}.projects::before{
+  content:"";
+  position: absolute;
+  bottom:-7%;
+  left: 0;
+  z-index: -1;
+  height: 370px;
+  background-color: rgb(12, 65, 122);
+  width: 100%;
+  transform:skewy(3deg) ;
+  -webkit-transform:skewy(3deg) ;
+  -moz-transform:skewy(3deg) ;
+  -ms-transform:skewy(3deg) ;
+  -o-transform:skewy(3deg) ;
+}
+.forth{
+color: rgb(102, 47, 161);
+}
+.purple{
+  background-color: rgb(169, 108, 234);
+}.third{
+  color: rgb(180, 12, 45);
+}
+.pro{
+  min-height: 600px;
+}
+
+.view a:hover{ background-color: rgb(95, 237, 239)
+}

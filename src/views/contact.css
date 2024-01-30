@@ -1,0 +1,66 @@
+
+.contact{
+    padding-top: 200px;
+   min-height: 700px;
+   position: relative;
+    background-color: rgb(94, 148, 205);
+}
+.do{
+    color: black;
+    font-family: 'Mina', sans-serif;
+}
+@keyframes opaci {
+    50%{
+opacity: .1;
+    }
+    100%{
+opacity: 1;
+    }
+}
+
+@keyframes top {
+ 
+    50%{ transform: translate(-2px, -20px) rotate(-2deg)    rotate(-2deg); -webkit-transform: translate(-2px, -20px) rotate(-2deg)    rotate(-2deg); -moz-transform: translate(-2px, -20px) rotate(-2deg)    rotate(-2deg); -ms-transform: translate(-2px, -20px) rotate(-2deg)    rotate(-2deg); -o-transform: translate(-2px, -20px) rotate(-2deg)    rotate(-2deg);
+}
+100%{
+    opacity:0;
+        }
+}
+.coff{
+    animation: top infinite  3s;
+}
+.dance:hover{
+    cursor: pointer;
+    transform: translate(2px , -24px);
+    -webkit-transform: translate(2px , -24px);
+    -moz-transform: translate(2px , -24px);
+    -ms-transform: translate(2px , -24px);
+    -o-transform: translate(2px , -24px);
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width:800px) {
+.mail{
+    font-size: 13px;
+    font-weight: 600;
+
+}
+}
+.mail{
+    font-weight: 700;
+}
+.ct{
+    color: rgb(255, 186, 125);
+}
+ .fontawesome:hover{
+    color: pink;
+    font-weight: bold;
+    transform: translate(2px, -4px);
+    -webkit-transform: translate(2px, -4px);
+    -moz-transform: translate(2px, -4px);
+    -ms-transform: translate(2px, -4px);
+    -o-transform: translate(2px, -4px);
+}

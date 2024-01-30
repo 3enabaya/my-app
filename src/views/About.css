@@ -1,0 +1,39 @@
+body{
+    font-family: 'Mina', sans-serif;
+}
+.About{
+    min-height: 800px;
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 60px;
+    z-index: 4;
+}
+
+
+.who{
+    color: rgb(255, 60, 92);
+}
+.sara{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 250px;
+}.About:after{
+    content:"";
+    position: absolute;
+    top:-7%;
+    left: 0;
+    z-index: -1;
+    height: 480px;
+    background-color:#dddd;
+    width: 100%;
+    transform:skewy(8deg) ;
+    -webkit-transform:skewy(8deg) ;
+    -moz-transform:skewy(8deg) ;
+    -ms-transform:skewy(8deg) ;
+    -o-transform:skewy(8deg) ;
+ }.do{
+    color: rgb(232, 58, 87);
+ }
