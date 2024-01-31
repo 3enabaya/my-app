@@ -8,8 +8,8 @@ const Intro = () => {
             <div className="container">
                 <div className="row justify-content-center m-auto pt-5 pb-5 ">
                     <div className=" col-md-10 col-sm-12  m-auto pt-5 pb-5 " >
-                        <h1 className=" display-1 bold">Hello I'm Sarrah , </h1>
-                        <h1 className="display-1 "> A Front-End Developer</h1>
+                        <h1 className=" display-1 bold">Hello I'm Sarrah, </h1>
+                        <h1 className="display-1 "> Front-End Developer</h1>
                         <h3 className=" text-cream
 
 ">I Love Exploring And Teaching Myself New Things And I Love Coffee
