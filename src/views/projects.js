@@ -26,9 +26,9 @@ const Projects = () => {
                         <span className="orange text-white">CSS3</span>
                         <span className="orange text-white">jSON </span>
                         <span className="orange text-white">Bootstrap5 </span>
-                        <div className="view"> <a href="https://3enabaya.github.io/emojiquiz/" className="btn btn-info m-2 fw-bold px-5">View It Here</a> </div>
+                        <div className="view"> <a href="https://3enabaya.github.io/emojiquiz/" className="btn btn-info fw-bold px-md-5 px-lg-5  mt-2">View It Here</a> </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-md-6 col-lg-6 col-12">
         <span><img className="w-100" src={emoji3} /> </span>
         </div> 
         </div>
@@ -42,10 +42,10 @@ const Projects = () => {
                         <span className="green text-white">JavaScript </span>
                         <span className="green text-white">HTML5 </span>
                         <span className="green text-white">Sass</span>
-                        <div className="view"> <a href="https://3enabaya.github.io/todolist/" className="btn btn-info  m-2 fw-bold px-5">View It Here</a> </div>
+                        <div className="view"> <a href="https://3enabaya.github.io/todolist/" className="btn btn-info  fw-bold px-md-5 px-lg-5  mt-2">View It Here</a> </div>
                         </div>
 
-             <div className="col-6">
+                        <div className="col-md-6 col-lg-6 col-12">
         <span><img className="w-100" src={emoji4} /> </span>
         </div> 
         </div>
@@ -62,9 +62,9 @@ const Projects = () => {
                         <span className="purple text-white">JavaScript </span>
                         <span className="purple text-white">HTML5 </span>
                         <span className="purple text-white">CSS</span>
-                        <div className="view"> <a href="https://3enabaya.github.io/Elzero/" className="btn btn-info  m-2 fw-bold px-5">View It Here</a> </div>
+                        <div className="view"> <a href="https://3enabaya.github.io/Elzero/" className="btn btn-info  fw-bold px-md-5 px-lg-5  mt-2">View It Here</a> </div>
                         </div>
-             <div className="col-6">
+                        <div className="col-md-6 col-lg-6 col-12">
         <span><img className="w-100" src={emoji5} /> </span>
         </div> 
         </div>
