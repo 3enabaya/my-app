@@ -7,7 +7,7 @@ import html5 from './html-5_919827.png'
 import saas from './sass_5968358.png'
 import bootstrap from './bold_10700968.png'
 import react from './atom_471902.png'
-import github from './atom_471902.png'
+import github from './github_733609.png'
 import JavaScript from './js_5968292.png'
 
 
