@@ -50,31 +50,11 @@ const Projects = () => {
         </div> 
         </div>
                    
-                
-                
-        <div className="row pro m-5 pt-5   ">
-        <div className="col-lg-6 col-md-6  col-9 mt-2 mb-2">
-        <h2 className="third fw-bold pt-5 pb-3">Third Project</h2>
-        <h2 className=" text-info "> HEMA </h2>
-        <h5> HEMA Is A Clone Of The Original HEMA Website. Here I Focused On Strengthening My Javascript And CSS Skills. For This Project I Have Not Used Any Framework. </h5>
-        <h5 className="fw-bold"> Here I have used </h5>
-                        <span className="red text-white">JavaScript </span>
-                        <span className="red text-white">HTML5 </span>
-                        <span className="red text-white">css</span>
-                        <div className="view"> <a href="https://3enabaya.github.io/hemaa/" className="btn btn-info  m-2 fw-bold px-5">View It Here</a> </div>
-
-                        </div>
-             <div className="col-6 ">
-        <span><img className="w-100 " src={emoji1} /> </span>
-        </div> 
-        </div>
-                   
-                            
-                
+            
                 
         <div className="row pro m-5 pt-5 ">
         <div className="col-lg-6 col-md-6  col-9  mt-2 mb-2">
-        <h2 className="forth pt-5 fw-bold pb-3">Fourth Project</h2>
+        <h2 className="forth pt-5 fw-bold pb-3">Third Project</h2>
         <h2 className="text-info ">Elzero Webschool</h2>
         <h5> This Project Has Helped Me A Lot In Understanding CSS, Discovering Its Features And Understanding What A Responsive Design Is.  </h5>
         
